@@ -1,0 +1,4 @@
+*.csv
+
+# ignore rakamin miniproject 1 temporarily
+Courses/RakaminMiniProject/1.\ Analyzing\ eCommerce\ Business\ Performance\ with\ SQL/
