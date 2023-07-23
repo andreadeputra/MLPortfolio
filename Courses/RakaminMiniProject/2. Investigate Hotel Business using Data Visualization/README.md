@@ -3,7 +3,7 @@
 This project is part of Rakamin Academy's portfolio building. In this project, I am given a dataset about hotel booking data distributed by Rakamin Academy modified after dataset from Kaggle's [Hotel Booking Demand](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand). The goal of this project is to gain business insight based on the dataset. That being said, the scope for this project will involve data preprocessing and data visualization.
 
 ## Data Pre-Processing
-Based on quick data overview, ere are the overview of what's being done in this step:
+Based on quick data overview, here are the overview of what's being done in this step:
 - Data Understanding
 - Datatype Validation
 - Duplicates Removal
@@ -38,3 +38,11 @@ After doing some descriptive analysis and value checking, there are some notable
 - Changing 'Undefined' to 'No Meal' in **meal** by referencing original source
 - Changing 'Complementary' to 'Complimentary' to follow general naming in hotel business
 - Normalize **city** column's value by removing 'Kota' and 'Kabupaten' prefix
+
+## Monthly Hotel Booking Analysis Based on Hotel Type
+![Monthly Booking Trends based on Hotel Type](img/Graph01 - Monthly Booking.png)
+
+From graph 1. above, here are the findings:
+- The trends can be segmented based on trimester, with second trimester having the best trends out of 3
+- Hotel booking trends in Indonesia is mostly affected by holidays and academic calendar
+- Peak timing for City Hotel is between June-August
