@@ -46,3 +46,5 @@ From graph 1. above, here are the findings:
 - The trends can be segmented based on trimester, with second trimester having the best trends out of 3
 - Hotel booking trends in Indonesia is mostly affected by holidays and academic calendar
 - Peak timing for City Hotel is between June-August
+
+## Impact Analysis of Stay Duration on Hotel Bookings Cancellation Rates
