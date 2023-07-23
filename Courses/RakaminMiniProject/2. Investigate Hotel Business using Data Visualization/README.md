@@ -42,7 +42,7 @@ After doing some descriptive analysis and value checking, there are some notable
 ## Monthly Hotel Booking Analysis Based on Hotel Type
 ![Monthly Booking Trends based on Hotel Type](img/Graph01 - Monthly Booking.png)
 
-From graph 1. above, here are the findings:
+From the graph above, here are the findings:
 - The trends can be segmented based on trimester, with second trimester having the best trends out of 3
 - Hotel booking trends in Indonesia is mostly affected by holidays and academic calendar
 - Peak timing for City Hotel is between June-August
@@ -54,8 +54,21 @@ For this step, total duration of stay is made into 4 segments:
 - Segment **C** for total stay duration of 7-9 days
 - Segment **D** for total stay duration of 10+ days
 
-![Cancellation Rate based on Hotel Type and Stay Duration](img/Graph 04 - Cancel Rate vs Duration.png)
+![Cancellation Rate based on Hotel Type and Stay Duration](img/Graph04 - Cancel Rate vs Duration.png)
 
-From graph 4. above, here are the findings:
-- Cancellation rate in City Hotel has negative correlation with stay duration, where the longer they stay duration is made on booking, the more likely it's being canceled
+From the graph above, here are the findings:
+- Cancellation rate in City Hotel has positive correlation with stay duration, where the longer they stay duration is made on booking, the more likely it's being canceled
 - Cancellation rate in Resort Hotel has no correlation with stay duration, which might mean Resort Hotel to be less prone to fraudulent bookings
+
+## Impact Analysis of Lead Time on Hotel Bookings Cancellation Rate
+For this step, lead time is categorized into:
+- **Short**: consists of guests who book within 24 days lead time
+- **Medium**: consists of guests who book within 125 days lead time
+- **Long**: consists of guests who book beyond 125 days lead time
+
+![Cancellation Rate based on Hotel Type and Lead Time](img/Graph07 - Cancel Rate vs Lead Time.png)
+
+From the graph above, here are the findings:
+- Cancellation rate in City Hotel has positive correlation with lead time
+- Cancellation rate in Resort Hotel has positive correlation with lead time on a smaller degree compared to City Hotel
+- Low cancellation rate on shorter lead time might be attributed to cancellation policy
