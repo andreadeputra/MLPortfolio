@@ -48,3 +48,14 @@ From graph 1. above, here are the findings:
 - Peak timing for City Hotel is between June-August
 
 ## Impact Analysis of Stay Duration on Hotel Bookings Cancellation Rates
+For this step, total duration of stay is made into 4 segments:
+- Segment **A** for total stay duration of 1-3 days
+- Segment **B** for total stay duration of 4-6 days
+- Segment **C** for total stay duration of 7-9 days
+- Segment **D** for total stay duration of 10+ days
+
+![Cancellation Rate based on Hotel Type and Stay Duration](img/Graph 04 - Cancel Rate vs Duration.png)
+
+From graph 4. above, here are the findings:
+- Cancellation rate in City Hotel has negative correlation with stay duration, where the longer they stay duration is made on booking, the more likely it's being canceled
+- Cancellation rate in Resort Hotel has no correlation with stay duration, which might mean Resort Hotel to be less prone to fraudulent bookings
