@@ -40,7 +40,7 @@ After doing some descriptive analysis and value checking, there are some notable
 - Normalize **city** column's value by removing 'Kota' and 'Kabupaten' prefix
 
 ## Monthly Hotel Booking Analysis Based on Hotel Type
-![Monthly Booking Trends based on Hotel Type](img/Graph01 - Monthly Booking.png)
+![Monthly Booking Trends based on Hotel Type](img/Graph01%20-%20Monthly%20Booking.png)
 
 From the graph above, here are the findings:
 - The trends can be segmented based on trimester, with second trimester having the best trends out of 3
@@ -54,7 +54,7 @@ For this step, total duration of stay is made into 4 segments:
 - Segment **C** for total stay duration of 7-9 days
 - Segment **D** for total stay duration of 10+ days
 
-![Cancellation Rate based on Hotel Type and Stay Duration](img/Graph04 - Cancel Rate vs Duration.png)
+![Cancellation Rate based on Hotel Type and Stay Duration](img/Graph04%20-%20Cancel%20Rate%20vs%20Duration.png)
 
 From the graph above, here are the findings:
 - Cancellation rate in City Hotel has positive correlation with stay duration, where the longer they stay duration is made on booking, the more likely it's being canceled
@@ -66,7 +66,7 @@ For this step, lead time is categorized into:
 - **Medium**: consists of guests who book within 125 days lead time
 - **Long**: consists of guests who book beyond 125 days lead time
 
-![Cancellation Rate based on Hotel Type and Lead Time](img/Graph07 - Cancel Rate vs Lead Time.png)
+![Cancellation Rate based on Hotel Type and Lead Time](img/Graph07%20-%20Cancel%20Rate%20vs%20Lead%20Time.png)
 
 From the graph above, here are the findings:
 - Cancellation rate in City Hotel has positive correlation with lead time
