@@ -1,4 +1,5 @@
 *.csv
 
-# ignore rakamin miniproject 1 temporarily
+# ignore unfinished rakamin miniproject temporarily
 Courses/RakaminMiniProject/1.\ Analyzing\ eCommerce\ Business\ Performance\ with\ SQL/
+Courses/RakaminMiniProject/3.\ Predict\ Customer\ Personality\ to\ Boost\ Marketing\ Campaign\ by\ Using\ Machine\ Learning/
