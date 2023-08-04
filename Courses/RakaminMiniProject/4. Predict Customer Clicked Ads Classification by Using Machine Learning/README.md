@@ -21,6 +21,7 @@ In this step, I did another quick overview towards the data at hand. The objecti
 Here are the summary of what I did in data cleaning:
 - Filling missing values in **DailyTimeOnSite**, **AreaIncome**, **DailyNetUsage**, and **Male** columns based on their distributions
 - Validating **Timestamp** column by changing its datatype into datetime
+- Extracted year, month, week, and day from **Timestamp**
 - Changing values of **Male** to represent binary values
 - Changing values of **AdClick** to represent binary values
 
@@ -31,4 +32,3 @@ After cleaning the dataset, the data is mostly ready for splitting. The target c
 After splitting is done, there are still 3 more columns to encode and rescaling to be done. The objective of this step will be to do transformation based on train dataset before using the fitted variable to transform the test dataset. Here are the summary of what I did in this step:
 - Encoded **city**, **province**, and **category** using BinaryEncoder
 - Normalized 4 numerical columns using Yeo-Johnson Transformation
-- Extracted year, month, week, and day from **Timestamp**
