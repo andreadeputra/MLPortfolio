@@ -28,7 +28,5 @@ Here are the summary of what I did in data cleaning:
 ### Data Splitting
 After cleaning the dataset, the data is mostly ready for splitting. The target columns for this dataset will be **AdClick** since the objective was to evaluate ad's effectiveness. After separating target and features, I split the data with 80:20 ratio of train and test dataset. Train-test split is done before further encoding as an attempt to reduce data leakage probability by only fitting to train dataset.
 
-### Feature Transformation and Engineering
-After splitting is done, there are still 3 more columns to encode and rescaling to be done. The objective of this step will be to do transformation based on train dataset before using the fitted variable to transform the test dataset. Here are the summary of what I did in this step:
-- Encoded **city**, **province**, and **category** using BinaryEncoder
-- Normalized 4 numerical columns using Yeo-Johnson Transformation
+### Feature Encoding
+After splitting is done, categorical features will be encoded. While tree based algorithm allows categorical features to be processed, I will still do features encoding to accomodate algorithm like logistic regression. Due to the amount of unique values on 3 categorical columns, **city** will be dropped before applying One-Hot Encoding.
