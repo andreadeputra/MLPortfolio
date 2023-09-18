@@ -30,3 +30,28 @@ After cleaning the dataset, the data is mostly ready for splitting. The target c
 
 ### Feature Encoding
 After splitting is done, categorical features will be encoded. While tree based algorithm allows categorical features to be processed, I will still do features encoding to accomodate algorithm like logistic regression. Due to the amount of unique values on 3 categorical columns, **city** will be dropped before applying One-Hot Encoding.
+
+### Machine Learning Modeling
+For this project, I explicitly didn't transform my features before running the first modeling experiment. This is done to observe the effects of features' scales towards some models. For this project, I used 5 different classification models, such as:
+1. Logistic Regression
+2. Decision Tree
+3. Random Forest
+4. AdaBoost
+5. XGBoost
+
+These models will be evaluated with Accuracy score as the focus metrics. Without additional data, the assumption I used for this decision is that the cost between False Positive and False Negative prediction is not significant. Due to that, it's better to focus on focusing both True Positive and True Negative using accuracy instead.
+
+After running each models twice, without and with feature scaling, only Logistic Regression has gotten significant improvement towards its performance. It's concluded that tree based models don't require feature scaling.
+
+Here is the performance summary before scaling:
+![Performance Before Scaling](img/Before_scale.png)
+
+Here is the performance summary after scaling:
+![Performance After Scaling](img/After_scale.png)
+
+Here is the comparison between before and after scaling using confusion matrix:
+![Confusion Matrix Before vs After Scaling](img/Conf_matrix.png)
+Based on the graph above, some takeaways will be:
+- Age is by far the most important feature in determining whether someone click on ads or not
+- Customers from Bali and Sumatera Selatan are more likely to click
+- The month when ads run increases the likelihood for customers to click
