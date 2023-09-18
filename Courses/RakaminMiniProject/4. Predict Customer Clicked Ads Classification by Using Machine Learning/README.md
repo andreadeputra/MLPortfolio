@@ -31,7 +31,7 @@ After cleaning the dataset, the data is mostly ready for splitting. The target c
 ### Feature Encoding
 After splitting is done, categorical features will be encoded. While tree based algorithm allows categorical features to be processed, I will still do features encoding to accomodate algorithm like logistic regression. Due to the amount of unique values on 3 categorical columns, **city** will be dropped before applying One-Hot Encoding.
 
-### Machine Learning Modeling
+## Machine Learning Modeling
 For this project, I explicitly didn't transform my features before running the first modeling experiment. This is done to observe the effects of features' scales towards some models. For this project, I used 5 different classification models, such as:
 1. Logistic Regression
 2. Decision Tree
@@ -44,14 +44,23 @@ These models will be evaluated with Accuracy score as the focus metrics. Without
 After running each models twice, without and with feature scaling, only Logistic Regression has gotten significant improvement towards its performance. It's concluded that tree based models don't require feature scaling.
 
 Here is the performance summary before scaling:
+
 ![Performance Before Scaling](img/Before_scale.png)
 
 Here is the performance summary after scaling:
+
 ![Performance After Scaling](img/After_scale.png)
 
 Here is the comparison between before and after scaling using confusion matrix:
+
 ![Confusion Matrix Before vs After Scaling](img/Conf_matrix.png)
+
 Based on the graph above, some takeaways will be:
 - Age is by far the most important feature in determining whether someone click on ads or not
 - Customers from Bali and Sumatera Selatan are more likely to click
 - The month when ads run increases the likelihood for customers to click
+
+## Business Recommendations
+Based on 3 insights before, I did some EDA to gather additional insight before giving recommendations. Unfortunately, there is no significant impact found regarding the effect of customers' province towards ads click rate. That being said, here are the recommendations to maximize ads click rate:
+- Personalize ads towards customers between age 40 and 60
+- Run special campaign on February or May
