@@ -19,3 +19,13 @@ Based on descriptive analysis, here are the method in standardizing values on th
 - **PernahBekerja**: 'yes' will be combined to '1'
 - **TanggalResign**: '-' as the values indicating that employees are still working will be replaced with an arbitrary date of '2100-1-1'
 
+## Annual Report on Employee Number Changes
+Employee number changes will be analyzed by calculating total employees every year to see the changes due to hiring and resigning of employees. The summary for employee number changes can be seen on the graph below:
+
+![Waterfall Chart for Employee Number Changes](img/waterfall.png)
+
+Based on the graph above, here are the summary:
+- Worst turnover can be observed at year 2018 with 11.29% turn over rate that's higher than 10% for [industry average turnover rate](https://www.linkedin.com/business/talent/blog/talent-strategy/industries-with-the-highest-turnover-rates#:~:text=compared%20with%20the%20overall%20average%20of%2010.6%25)
+- The upward trend on employment rate might be attributed to the [growing amount of data worldwide](https://www.nasdaq.com/articles/a-decade-of-change%3A-how-tech-evolved-in-the-2010s-and-whats-in-store-for-the-2020s#:~:text=AI%20and%20Big%20Data%20Took%20Off) benefiting tech companies
+- The slowing down of employment rate on 2015 and 2016 might be attributed to the company's [resource maturity](https://www.upwork.com/resources/stages-of-business-growth#resource-maturity:~:text=After%20a%20successful%20take%2Doff%20where%20the%20company%20has%20achieved%20the%20rapid%20growth%20it%20aimed%20for%2C%20the%20main%20concern%20of%20businesses%20entering%20the%20resource%20maturity%20stage%20is%20proper%20management%20of%20the%20financial%20gains%20from%20the%20last%20phase).
+- The downward trend on year 2017 might be attributed to change in [world economy](https://money.cnn.com/2017/12/28/news/economy/jobs-2017/index.html#:~:text=Another%20sign%20of,plenty%20of%20options.)
