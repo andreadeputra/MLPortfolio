@@ -1,5 +1,6 @@
 *.csv
 *.txt
+*.env
 
 # ignore unfinished rakamin miniproject temporarily
 Courses/RakaminMiniProject/1.\ Analyzing\ eCommerce\ Business\ Performance\ with\ SQL/

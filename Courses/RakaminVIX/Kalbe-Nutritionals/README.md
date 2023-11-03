@@ -76,7 +76,8 @@ While silhouette score of 0.332 is considered low quality cluster, this result i
 
 Based on the pairplot, all 4 clusters can only be seen in regards of LastPurchase. Considering that, 3d visualization might be a better way to see this. The axis chosen will be each representations of RFM. This excludes total quantity purchased, since it's represented in total spending.
 
-<iframe src="https://github.com/andreadeputra/MLPortfolio/tree/main/Courses/RakaminVIX/Kalbe-Nutritionals/img/3d-cluster.html"> </iframe>
+<iframe width='100%' height=650 src='https://chart-studio.plotly.com/~andreade/1'>
+</iframe>
 
 ### Cluster Analysis and Recommendations
 1. Label 0 (**Potential Loyalists**):
