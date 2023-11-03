@@ -26,6 +26,7 @@ As preparation for task 3 and 4, it's necessary to compile 4 csv files into 1 co
 - Merge all 4 data into 1 dataframe
 
 Here are the resulting main dataframe for the next steps:
+
 ![Dataframe after Merge](img/df-merge.png)
 
 ## Sales Quantity Prediction
@@ -74,10 +75,7 @@ While silhouette score of 0.332 is considered low quality cluster, this result i
 ### KMeans Cluster Modeling
 ![Cluster Result in Pairplot](img/pairplot-cluster.png)
 
-Based on the pairplot, all 4 clusters can only be seen in regards of LastPurchase. Considering that, 3d visualization might be a better way to see this. The axis chosen will be each representations of RFM. This excludes total quantity purchased, since it's represented in total spending.
-
-<iframe width='100%' height=650 src='https://chart-studio.plotly.com/~andreade/1'>
-</iframe>
+Based on the pairplot, all 4 clusters can only be seen in regards of LastPurchase. Considering that, 3d visualization might be a better way to see this. The axis chosen will be each representations of RFM. This excludes total quantity purchased, since it's represented in total spending. The 3d visualization for this clustering model can be seen [here](https://chart-studio.plotly.com/~andreade/1.embed)
 
 ### Cluster Analysis and Recommendations
 1. Label 0 (**Potential Loyalists**):
